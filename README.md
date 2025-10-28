@@ -41,7 +41,7 @@ The objective of this project is to design and implement an **object detection m
 
 ---
 
-📊 Results
+### 📊 Results
 
 The model accurately detects and labels multiple objects in both static and dynamic environments.
 
@@ -49,7 +49,7 @@ Performance and accuracy depend on the dataset and model architecture used.
 
 Results include bounding boxes, class names, and confidence levels for each detected object.
 
-🧑‍💻 Contributor
+### 🧑‍💻 Creator
 
 👤 Debdut Nandy
 Intern, Edunet Foundation × Shell (AICTE Approved)
@@ -58,9 +58,7 @@ Intern, Edunet Foundation × Shell (AICTE Approved)
 
 🎓 Pursuing B.Tech in Computer Science and Engineering from Brainware University
 
-🌐 LinkedIn Profile
-
-🏁 Acknowledgment
+### 🏁 Acknowledgment
 
 Special thanks to:
 
