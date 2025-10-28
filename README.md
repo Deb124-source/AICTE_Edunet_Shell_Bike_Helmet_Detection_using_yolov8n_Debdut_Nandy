@@ -41,37 +41,6 @@ The objective of this project is to design and implement an **object detection m
 
 ---
 
-## 🚀 How to Run  
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/Object-Detection-Project.git
-   cd Object-Detection-Project
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the project
-
-Open the notebook:
-
-jupyter notebook Object_Detection.ipynb
-
-
-or
-
-Run the script:
-
-python main.py
-
-
-Test the model
-
-Upload sample images or use your webcam for real-time object detection.
-
 📊 Results
 
 The model accurately detects and labels multiple objects in both static and dynamic environments.
