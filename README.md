@@ -40,20 +40,27 @@
 
 # Structure:
    Helmet-Detection/:
+   
     1. Helmet_Detection.ipynb: "Main Colab notebook for training, testing, and inference"
+    
     2. dataset/:
         data.yaml: "YOLO dataset configuration file"
         train/: "Training images and labels"
         val/: "Validation images and labels"
         test/: "Optional test images and labels"
+   
     3. models/:
         best.pt: "Trained YOLOv8 model weights"
+ 
     4. runs/:
         detect/: 
           train6/: "Training outputs (metrics, graphs, weights)"
           predict/: "Predictions from test images/videos"
+    
     5. requirements.txt: "Dependencies list"
+    
     6. README.md: "Project overview and documentation"
+    
     7. .gitignore: "Ignored files and folders for GitHub"
 
 # Requirements:
