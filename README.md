@@ -64,35 +64,60 @@
     7. .gitignore: "Ignored files and folders for GitHub"
 
 # Requirements:
+ 
   - ultralytics==8.3.223
+ 
   - torch>=2.0
+ 
   - opencv-python
+ 
   - matplotlib
+ 
   - numpy
+ 
   - pandas
 
 # Commands:
   setup:
+   
     - "git clone https://github.com/<your-username>/Helmet-Detection.git"
+    
     - "cd Helmet-Detection"
+   
     - "pip install -r requirements.txt"
+ 
   inference:
+   
     image: "!yolo detect predict model=models/best.pt source='test_image.jpg' save=True"
+    
     video: "!yolo detect predict model=models/best.pt source='test_video.mp4' save=True"
 
+
 colab:
+ 
   usage:
+   
     - "Upload Helmet_Detection.ipynb to Google Colab"
+   
     - "Mount Google Drive: drive.mount('/content/drive')"
+   
     - "Run cells step by step to train, validate, and test the model"
+  
   outputs:
+   
     - "Training metrics and graphs in runs/detect/train6/"
+   
     - "Predicted outputs in runs/detect/predict/"
 
 # Technologies:
+  
   - Python
+  
   - Ultralytics YOLOv8
+ 
   - PyTorch
+  
   - OpenCV
+  
   - Google Colab
 
