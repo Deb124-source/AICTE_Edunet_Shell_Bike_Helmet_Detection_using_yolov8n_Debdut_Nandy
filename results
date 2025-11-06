@@ -1,0 +1,4 @@
+| Class          | mAP50 | Precision | Recall |
+| -------------- | ----- | --------- | ------ |
+| With Helmet    | 0.858 | 0.78      | 0.84   |
+| Without Helmet | 0.640 | 0.77      | 0.54   |
