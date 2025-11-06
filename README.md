@@ -1,4 +1,4 @@
-# Project:Bike Helmet Detection using YOLOv8
+# Project: Bike Helmet Detection using YOLOv8
   Description: >
     A computer vision project that detects whether a person is wearing a helmet or not
     using a custom-trained YOLOv8 model. Developed in Google Colab as part of an internship
