@@ -64,7 +64,7 @@
   - numpy
   - pandas
 
-# commands:
+# Commands:
   setup:
     - "git clone https://github.com/<your-username>/Helmet-Detection.git"
     - "cd Helmet-Detection"
@@ -82,7 +82,7 @@ colab:
     - "Training metrics and graphs in runs/detect/train6/"
     - "Predicted outputs in runs/detect/predict/"
 
-# technologies:
+# Technologies:
   - Python
   - Ultralytics YOLOv8
   - PyTorch
