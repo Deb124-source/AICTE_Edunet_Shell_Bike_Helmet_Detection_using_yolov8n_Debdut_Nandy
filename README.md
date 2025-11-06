@@ -39,22 +39,22 @@
         recall: 0.695
 
 # Structure:
-  Helmet-Detection/:
-    - Helmet_Detection.ipynb: "Main Colab notebook for training, testing, and inference"
-    - dataset/:
+   Helmet-Detection/:
+    1. Helmet_Detection.ipynb: "Main Colab notebook for training, testing, and inference"
+    2. dataset/:
         data.yaml: "YOLO dataset configuration file"
         train/: "Training images and labels"
         val/: "Validation images and labels"
         test/: "Optional test images and labels"
-    - models/:
+    3. models/:
         best.pt: "Trained YOLOv8 model weights"
-    - runs/:
+    4. runs/:
         detect/: 
           train6/: "Training outputs (metrics, graphs, weights)"
           predict/: "Predictions from test images/videos"
-    - requirements.txt: "Dependencies list"
-    - README.md: "Project overview and documentation"
-    - .gitignore: "Ignored files and folders for GitHub"
+    5. requirements.txt: "Dependencies list"
+    6. README.md: "Project overview and documentation"
+    7. .gitignore: "Ignored files and folders for GitHub"
 
 # Requirements:
   - ultralytics==8.3.223
