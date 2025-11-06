@@ -1,0 +1,10 @@
+# Ignore system and temp files
+_pycache_/
+.DS_Store
+
+# Ignore YOLO runs and heavy outputs
+runs/
+*.pt
+*.pth
+*.zip
+*.log
