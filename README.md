@@ -17,13 +17,16 @@
   - Runs efficiently on Google Colab (Tesla T4 GPU).
 
 # Model:
-  type: "YOLOv8"
+  type: "YOLOv8" 
+ 
   framework: "Ultralytics"
+  
   parameters:
     classes: ["Helmet", "No Helmet"]
     epochs: 10
     image_size: 640
     device: "Tesla T4 GPU"
+ 
   metrics:
     - class: "With Helmet"
       mAP50: 0.858
