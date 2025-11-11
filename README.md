@@ -4,10 +4,10 @@
     using a custom-trained YOLOv8 model. Developed in Google Colab as part of an internship
     project with a custom bike helmet dataset.
 # Author:
-    Name: Debdut Nandy
-    Role: AI & ML Enthusiast
-    Email: debdut937@gmail.com
-    GitHub: https://github.com/Deb124-source
+  Name: Debdut Nandy
+  Role: AI & ML Enthusiast
+  Email: debdut937@gmail.com
+  GitHub: https://github.com/Deb124-source
   license: MIT License © 2025 Debdut Nandy
 
 # Features:
