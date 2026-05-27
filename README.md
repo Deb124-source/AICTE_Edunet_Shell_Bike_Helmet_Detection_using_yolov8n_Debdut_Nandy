@@ -128,3 +128,8 @@ colab:
   
   - Google Colab
 
+
+# Demo screenshot:
+<img src="IMG_20251117_182628.jpg" width="700"/>
+
+
